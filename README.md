@@ -1,6 +1,6 @@
 # WEB dev Challenge 2025 - F Module
 
-Welcome to the **Dev Challenge 2025**! Follow the steps below to set up your repository and deploy your project successfully.
+Weelcome to the **Dev Challenge 2025**! Follow the steps below to set up your repository and deploy your project successfully.
 
 ## 🚀 Getting Started
 
