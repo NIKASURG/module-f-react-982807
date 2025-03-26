@@ -2,6 +2,9 @@
 import React from "react";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 
+
+
+
 fetch('https://konkursas.kitm.lt/swagger/#/default/get_places_nearby.json').then(response => response.json())
 .then(data => {
   for (const i in data.info) {
@@ -25,10 +28,11 @@ const App = () => {
       />
       <Marker position={position}>
         <Popup>
-          Kauno informacinių technologijų mokykla. <br /> Lankoma vieta, 50 lankytoju kas valanda.
+          Kauno informacinių technologijų mokykla. <br /> Lankoma vieta, 52 lankytoju kas valanda.
         </Popup>
       </Marker>
     </MapContainer>
+    
   );
 };
 
